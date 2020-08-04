@@ -42,3 +42,24 @@ On avarage, how many flips are needed for the sequence to contain both heads and
 Write a simulation that runs 10,000 trials of the experiment and prints the average number of flips per trial.
 
 
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 3
+
+# Goal: Simulate an Election
+
+Instruction: With some help from the random module and a little condition logic, you can simulate an election between two candidates.
+
+Suppose two candidates: Candidate A and Candiadate B, are running for mayor in a city with three voting regions. The most recent polls show that Candidate A has the following chances for winning in each region:
+
+                Region 1: 87% chance of winning
+                Region 2: 65% chance of winning
+                Region 3: 17% chance of winning
+Write a program that simulates the election 10,000 times and prints the percentage of where Candidate A wins.
+
+To keep things simple, assume that candidate wins the electioon is they win in at least two of the three regions.
+
+
+
+
+
