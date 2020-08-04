@@ -83,3 +83,43 @@ for trial in range(num_trials):
 # calculate the average per flips
 avg_flips_per_trial = flips / num_trials 
 print(f"The average number of flips per trial is {avg_flips_per_trial}.")
+
+
+
+
+# Alternative solution C (using functions)
+
+import random 
+
+def single_tria():
+	"""Simulate repeatedly a coing until both heads and tails are seen"""
+	# this function uses random.randint() to simulate a single coin toss.
+	# randing(0, 1) randomly returns 0 or 1 with equal probability. We can
+	# use 0 to represents heads and 1 to represents tails.
+	
+	# flip the coin the first time
+	flip_result = random.randint(0, 1)
+	# keep a tally of how many times the coin has been flipped. We've only 
+	# flipped once so the initial count is 1
+	flip_count = 1
+	
+	# continue to flip the coin until randint(0, 1) returns something
+	# different than the original flip_result
+	while flip_result == random.randint(0, 1):
+		flip_count += 1
+	
+	# the last step in the loop flipped the the coin but didnt update the tally,
+	# so we need to increase the flip_count by 1
+	flip_count += 1
+	return the flip_count
+
+	
+def flip_trial_avg(num_trials):
+	"""calculate the average number of flips per trial over num_trials total trials."""
+	total = 0
+	for trial in range(num_trials):
+		total += single_trial()
+	return total / num_trials
+
+prinf(f"The average number of coin flips was {flip_trial_avg(10_000)}")
+
