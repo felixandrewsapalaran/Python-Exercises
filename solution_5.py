@@ -65,24 +65,9 @@ for i in range(1, 101):
                 theCats[cats] = False
             else:
                 theCats[cats] = True
+
 for cats, hats in theCats.items():
     if theCats[cats]:
         print(f"Cat {cats} has a hat.")
     else:
-        print(f"Cat {cats} is hatless")
-very second cat only
-            if cat % num == 0:
-                if array_of_cats[cat] is True:
-                    array_of_cats[cat] = False
-                else:
-                    array_of_cats[cat] = True
-    for cat in range(1, 100 + 1):
-        if cats[cat] is True:
-            cats_with_hats_on.append(cat)
-    return cats_with_hats_on
-
-
-cats = [False] * (100 + 1)
-print(get_cats_with_hats(cats))
-
-
+        print(f"Cat {cats} is hatless!")
