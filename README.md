@@ -131,25 +131,6 @@ Write a program that simply outputs which cats have hats at the end.
 
 
 
------------------------------------------------------------------------------------------------------------------------
-# Problem Num: 6
-
-# Goal: Model Farm
-
-The focus of this assignment is less about the Python class syntax and more about software design in general, which is highly subjective. This assignment is intentionally left open ended to encourage you to think about how you would organize your code into classes.
-
-Before you write any code, grab a pen and paper and sketch out a model of your farm, identifying classes, attribute s, and methods. Think about the inheritance. How can you prevent code dupication? Take the time to work through as many iterations as you feel are necessary.
-
-The actual requirements are open to interpretation, but try to adhere to these guidelines:
-
-1. You should have at least four classes: the parent "Animal" class and at least three child animal classes that inherit from "Animal"
-
-2. Each class should have a few attributes and at least one method that models some behaviors appropriate for a specific animal or all animals - walkin, runnin, eating, sleeping, and so on.
-
-3. Keep it simpl. Utilize inheritence. Make sure you output details about the animals and their behaviors.
-
-
-
 
 
 
