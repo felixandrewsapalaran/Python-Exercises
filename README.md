@@ -131,6 +131,16 @@ Write a program that simply outputs which cats have hats at the end.
 
 
 
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 6
+
+# Goal: BasketBall Statistics Tool
+
+Intruction: Built a console based program where you can applied your knowledge of built in Python data types and combine these types to create structures to store and organize a team of Basketball players into distributed teams. This tool will not only balance the team by total number of players but also let you generate some statistics for a given team.
+
+
+
+
 
 
 
