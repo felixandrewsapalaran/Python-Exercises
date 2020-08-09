@@ -9,9 +9,9 @@
 Instructions Follow steps below
 
 # Code Challenge 1
-# Step 1: 
+Step 1: 
 Make a new 'class' named 'Student' Give it an attribute 'name' and put your own nam, as a string, into the attributes
-# Step 2:
+Step 2:
 Now, make an instance of your class named 'me'. Then print() out the 'name' attribute of your instance
 
 # Code Challenge 2:
