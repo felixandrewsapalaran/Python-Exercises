@@ -4,25 +4,19 @@
 -----------------------------------------------------------------------------------------------------------------------
 # Problem Num: 1
 
-# Goal: OOP (instant objects, inheritance, advance objects, Dice Roller)
+# Goal: OOP (Classes & Objects, Encapsulation & Abstractions, Inheritance, Polymorphism)
 
-Instructions Follow steps below
+Instructions: Demostrate the use of OOP
 
-# Code Challenge 1
-Step 1: 
-Make a new 'class' named 'Student' Give it an attribute 'name' and put your own nam, as a string, into the attributes
-Step 2:
-Now, make an instance of your class named 'me'. Then print() out the 'name' attribute of your instance
+1. Demonstrate the use of Classes & Objects
 
-# Code Challenge 2:
+2. Demonstrate the use of Encapsulation & Abstractions
 
+3. Demonstrate the use of Inheritance
 
-
+4. Demonstrate the use of Polymorphism
 
 -----------------------------------------------------------------------------------------------------------------------
-
-
-
 
 
 
