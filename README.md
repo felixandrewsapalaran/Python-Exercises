@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 # Problem Num: 1
 
-# Goal: Instant Objects
+# Goal: OOP (instant objects, inheritance, advance objects, Dice Roller)
 
 Instructions Follow steps below
 
