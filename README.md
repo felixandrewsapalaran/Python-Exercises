@@ -138,6 +138,26 @@ removing the -1 in their index position
 Expected ouput:  [-1, 55, 43, -1, 23, 5, -1, 3]
 
 
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 7
+
+# Goal: Counting Frequncies in a list
+
+Instuction: In this program, we have an array of elements to count 
+the occurrence of its each element. One of the approaches 
+to resolve this problem is to maintain one array to store the 
+counts of each element of the array. Loop through the array and 
+count the occurrence of each element as frequency and store it in 
+another array
+
+Input : [1, 1, 1, 5, 5, 3, 1, 3, 3, 1,
+                  4, 4, 4, 2, 2, 2, 2]
+Output : 1 : 5
+         2 : 4
+         3 : 3
+         4 : 3
+         5 : 2
+
 
 
 
