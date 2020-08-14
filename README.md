@@ -185,3 +185,13 @@ without including it. A divisor is a number that divides into another without re
 36 # shold sum of 1+2+3+4+6+12+18   total = 55
 102 # should sum of 2+3+6+17+34+51          total = 114
 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 10
+
+# Goal: Sum of all squares of numbers
+
+Instruction: Create a function called the sum_squares that returns the sum of all the squares of numbers between 
+0 and x(not included). Remember that you can use the range(x) function to generate a sequence of numbers from 0
+to x (not included)
