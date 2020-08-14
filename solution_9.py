@@ -11,8 +11,8 @@ def sum_divisor(n):
     # n , not including n
     return sum
 
-print(sum_divisor(0)) # 0
-print(sum_divisor(3)) # Should sum of 1
-print(sum_divisor(36)) # Should sum of 1+2+3+4+6+9+12+18
-print(sum_divisor(102)) # Should sum of 2+3+6+17+34+51
+print(sum_divisor(0)) # 0   Total = 0
+print(sum_divisor(3)) # Should sum of 1   Total = 1
+print(sum_divisor(36)) # Should sum of 1+2+3+4+6+9+12+18   Total = 55
+print(sum_divisor(102)) # Should sum of 2+3+6+17+34+51                  Total =  114
 
