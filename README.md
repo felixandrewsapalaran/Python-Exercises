@@ -180,5 +180,8 @@ If a filesystem has a block size of 4096 bytes, this means that a file comprised
 Instruction: Create a function that returns the sum of all of the divisors of a number,
 without including it. A divisor is a number that divides into another without remainder
 
-
+0 # 0   total = 0
+3 # shold sum of 1  total = 1
+36 # shold sum of 1+2+3+4+6+12+18   total = 55
+102 # should sum of 2+3+6+17+34+51          total = 114
 
