@@ -126,6 +126,18 @@ Write a program that simply outputs which cats have hats at the end.
 
 
 
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 6
+
+# Goal: Sort the array in decending order witouth moving the -1 in original index position
+
+Instruction: You given an array [-1, 3, 5, -1, 55, 23, -1, 43]. Create a 
+function that will sort this function in descending order without 
+removing the -1 in their index position
+
+Expected ouput:  [-1, 55, 43, -1, 23, 5, -1, 3]
+
+
 
 
 
