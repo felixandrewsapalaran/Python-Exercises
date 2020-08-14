@@ -172,7 +172,13 @@ If a filesystem has a block size of 4096 bytes, this means that a file comprised
 6000 file should have a total of 8192 of bytes in order to store this file
 
 
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 9
 
+# Goal: Sum of all divisors
+
+Instruction: Create a function that returns the sum of all of the divisors of a number,
+without including it. A divisor is a number that divides into another without remainder
 
 
 
