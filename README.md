@@ -159,6 +159,19 @@ Output : 1 : 5
          5 : 2
 
 
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 8
+
+# Goal: Calculating the total number of bytes to store
+
+If a filesystem has a block size of 4096 bytes, this means that a file comprised of only one byte will still use 4096 bytes of storage. A file made up 4097 bytes will use 4096 * 2 = 8192 bytes of storage. Create a function called calculate_storage  which calculates the total number of bytes needed to store a file of a given size.
+
+1 file should have a total of 4096 of bytes in order to store this file
+4096 file should have a total of 4096 of bytes in order to store this file
+4097 file should have a total of 8192 of bytes in order to store this file
+6000 file should have a total of 8192 of bytes in order to store this file
+
+
 
 
 
