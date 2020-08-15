@@ -228,3 +228,13 @@ Expected output
 8 40320
 9 362880
 
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 13
+
+# Goal: recursive A
+
+Instruction: Create a function named sum_positive_numbers that take n as 
+a number and apply recursive that would add the sum of the 
+numnbers.
+
