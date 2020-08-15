@@ -195,3 +195,15 @@ without including it. A divisor is a number that divides into another without re
 Instruction: Create a function called the sum_squares that returns the sum of all the squares of numbers between 
 0 and x(not included). Remember that you can use the range(x) function to generate a sequence of numbers from 0
 to x (not included)
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 11
+
+# Goal: Factorial of a number
+
+Instruction: Create a function called factorial that would return the right factorial number 
+
+Example: 4! = 1*2*3*4 = 24
+
+Test cases: 4! should return 24
+Test cases: 5! should return 120
