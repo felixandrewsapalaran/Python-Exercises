@@ -207,3 +207,24 @@ Example: 4! = 1*2*3*4 = 24
 
 Test cases: 4! should return 24
 Test cases: 5! should return 120
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 12
+
+# Goal: Factorial of a number B
+
+Instructions: Create a funtion named factorial that would return the factorial of n. Print the first 10 factorials (0 to 9)
+with the corresponding number. Note factorial of 0! is 1
+
+Expected output
+0 1
+1 1
+2 2
+3 6
+4 24
+5 120
+6 720
+7 5040
+8 40320
+9 362880
+
