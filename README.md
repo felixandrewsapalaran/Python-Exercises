@@ -232,9 +232,18 @@ Expected output
 -----------------------------------------------------------------------------------------------------------------------
 # Problem Num: 13
 
-# Goal: recursive A
+# Goal: sum in recursive way
 
 Instruction: Create a function named sum_positive_numbers that take n as 
 a number and apply recursive that would add the sum of the 
 numnbers.
 
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 14
+
+# Goal: factorial recursive way
+
+
+Instruction: Create a function named factorrial that would return
+the factorial of n using recursive.
