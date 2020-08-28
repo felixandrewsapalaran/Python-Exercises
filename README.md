@@ -259,3 +259,11 @@ Instruction: Create a function that prints out a multiplication table(where each
 1 2 3
 2 4 6
 3 6 9
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 16
+
+# Goal: Counting numbers up or down
+
+
+Instruction: create a counter function that counts down from start to stop when start is bigger than stop, then count from start to stop then.
