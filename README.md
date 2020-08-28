@@ -247,3 +247,15 @@ numnbers.
 
 Instruction: Create a function named factorrial that would return
 the factorial of n using recursive.
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 15
+
+# Goal: Multiplication table with for loops
+
+
+Instruction: Create a function that prints out a multiplication table(where each number is the result of multiplying the first number of its row by the number at the top of its column).  Run the function so that it would print out the tables:
+
+1 2 3
+2 4 6
+3 6 9
