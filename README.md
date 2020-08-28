@@ -266,4 +266,4 @@ Instruction: Create a function that prints out a multiplication table(where each
 # Goal: Counting numbers up or down
 
 
-Instruction: create a counter function that counts down from start to stop when start is bigger than stop, then count from start to stop then.
+Instruction: create a counter function that counts down from start to stop when start is bigger than stop, count up from start to stop then.
