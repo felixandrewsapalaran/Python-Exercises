@@ -254,7 +254,7 @@ the factorial of n using recursive.
 # Goal: Multiplication table with for loops
 
 
-Instruction: Create a function that prints out a multiplication table(where each number is the result of multiplying the first number of its row by the number at the top of its column).  Run the function so that it would print out the tables:
+Instruction: Create a function that prints out a multiplication table(where each number is the result of multiplying the first number of its row by the number at the top of its column).  Run the function so that it would print out the  multiplication table of 1 to 3:
 
 1 2 3
 2 4 6
