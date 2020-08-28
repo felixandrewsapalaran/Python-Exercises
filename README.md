@@ -267,3 +267,11 @@ Instruction: Create a function that prints out a multiplication table(where each
 
 
 Instruction: create a counter function that counts down from start to stop when start is bigger than stop, count up from start to stop then.
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 17 
+
+# Goal: return even numbers seperated by space
+
+
+Instruction: Create a function named even_numbers that returns a space-seperated string all of positive numbers that are divisible by 2, up to and including the maximum that's passed into the function. For exampple, even_numbers(6) returns "2 4 6"
