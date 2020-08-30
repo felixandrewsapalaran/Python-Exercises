@@ -275,3 +275,32 @@ Instruction: create a counter function that counts down from start to stop when 
 
 
 Instruction: Create a function named even_numbers that returns a space-seperated string all of positive numbers that are divisible by 2, up to and including the maximum that's passed into the function. For exampple, even_numbers(6) returns "2 4 6"
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 18 
+
+# Goal:String comparison [0] == [-1]
+
+Create a function called first_and_last that returns True if the first of the string is the same as the last letter of the string. False if they're different. Be careful how you handle the empty string, which should return True since nothing is equal to nothing.
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 19
+
+# Goal: Palindrom
+
+The is_palindrome function checks if a string is a palindrome. A palindrome is a string that can be equally read from left to right or right to left, omitting blank spaces, and ignoring capitalization. Example of palindromes are words like kayak and radar, and phrases like "Never Odd Even". Create a function called is_palindrome to return True if the passed string is a palindrome, False is not.
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 20
+
+# Goal:Converting miles to kilometers
+Create a function called convert_distance_function that would returns the convertion from miles to kilometer and display the phrase "X miles equals Y km", with Y only 1 decimal place.
+
+For example, convert_distance(12) should return "12 miles equals 19.2 km"
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 21
+
+# Goal:nameTag
+
+Create a function named nametag that uses the format method to return first_name and the first initial of last_name followed by a period. For example, nametag("Jane", "Smith") should return "Jane S."
