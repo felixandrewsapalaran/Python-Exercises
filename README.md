@@ -334,3 +334,5 @@ Create a function called odd_numbers that would return a list of odd numbers bet
 # Problem Num: 25
 
 # Goal: Group list with join function
+
+Create a function called group_list that accepts a group name and a list of members, and returns a string 
