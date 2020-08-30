@@ -304,3 +304,33 @@ For example, convert_distance(12) should return "12 miles equals 19.2 km"
 # Goal:nameTag
 
 Create a function named nametag that uses the format method to return first_name and the first initial of last_name followed by a period. For example, nametag("Jane", "Smith") should return "Jane S."
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 22
+
+# Goal:Skip next elment
+
+Create a function called skip_elements that would return a list containing every other element from an input list, starting with the first element. 
+Tip: You can use for loop to iterate through the inut list
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 23
+
+# Goal: List Comprehensions
+
+A. Create a for loop that would loop from 1 to 10 and print the multiple of 7 (use list comprehension only)
+B. Create a list of programming language use list comprehension to loop over the list and print the length of each language
+C. Create a for loop using list comprehension that would print a list of numbers divisible by 3 (include 0)
+
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 24
+
+# Goal: use of list comprehension
+
+Create a function called odd_numbers that would return a list of odd numbers between 1 and n, inclusively
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 25
+
+# Goal: Group list with join function
