@@ -335,4 +335,81 @@ Create a function called odd_numbers that would return a list of odd numbers bet
 
 # Goal: Group list with join function
 
-Create a function called group_list that accepts a group name and a list of members, and returns a string 
+Create a function called group_list that accepts a group name and a list of members, and returns a string with the format: group_name:
+member1, member2,...
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 26
+
+# Goal:Guess lists
+
+Create a function called guest_list that reads in a list of tuples with the name, age, and profession of each party guest, and prints the 
+sentence "Guess is X years old and works as Y" for each one. For example, guest_list('Ken', 30, "Chef") should 
+print out: Ken is 30 years old and works at as Chef
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 27
+
+# Goal: Counting how many times the letter appear in a word or sentence
+
+Create a function that would count the number of letter appears in a word or sentence
+
+Example: tenant
+t: 2
+e: 1
+n: 2
+a: 1
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 28
+
+# Goal: access specifiers
+
+Create a function called groups_per_user that receives a dictionary, which contains group names with the list of users. 
+
+input: 
+{
+    "local": ["admin", "userA"],
+    "public": ["admin", "userB"],
+    "administrator": ["admin"] 
+}
+
+output:
+
+{
+  'admin': ['local', 'public', 'administrator'], 
+  'userA': ['local'], 
+  'userB': ['public']
+  }
+  
+  
+  -----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 29
+
+# Goal: add total groceries vaues
+
+Create a function named add_prices that returns the total price of all of the groceries in the dictionary. 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 30
+
+# Goal: squared of numbers with list comprehension
+
+Create a function and use list comprehension to create a list of squared numbers(n*n). The function receives the variables start and end,
+and returns a list of squres of consecutive numbers between start and end inclusively. For example, squares(2,3) should return [4, 9]
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 31
+
+# Goal: Car model and price with dictionary
+
+Create a function that would iterate through the keys and values of the car_prices dictionary, printing out some information about each one.
+
+-----------------------------------------------------------------------------------------------------------------------
+# Problem Num: 32
+
+# Goal:Counting letters
+
+Create a function named count_letters and use a dictionary to count the frequency of letter in the input string. Only letter should be counted, not blank spaces, numbers, or punctuation. Upper case should be considered the same as lower case. For example, count_letters("This is a sentence.") should return {'t': 2, 'h': 1, 'i': 2, 's': 3, 'a': 1, 'e': 3, 'n': 2, 'c': 1}.
+
