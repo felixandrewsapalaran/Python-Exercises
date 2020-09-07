@@ -1,11 +1,24 @@
-def square(n):
-    return n * n
+# this calcualtes the square 
+# of numbers
+def squares(number):
+    return number * number
 
-def sum_squares(x):
+# this returns the sum of 
+# square of all number
+def sum_squares(length):
+    
+    # keep track of the summation
     sum = 0
-    for n in range(x):
-        sum += square(n)
+    
+    for num in range(length):
+        
+        # calling square function and pass
+        # every index value of lenght
+        # add the squared numbers into sum variable
+        sum += squares(num)
+        
+    # return the total sum
     return sum
 
-# Should return 285
+# should return 285
 print(sum_squares(10))
