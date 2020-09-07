@@ -6,34 +6,36 @@ store the corresponding count of that key as values.
 """
 
 # count the frequency elements in a list using dictionary
-def CountFrequency(my_list):
-
-    # Creating an empty dictionary
+def count_frequency(list_num):
+    
+    # create an empty dictionary
+    # that would our frequencies
     frequency = {}
-
-    # iterate over the list
-    for item in my_list:
-        # check if the item is in our
-        # frequency dictionary
+    
+    # iterate over the list of numbers
+    for item in list_num:
+        
+        # check if the item is in
+        # our dictionary 
         if item in frequency:
-            # if it does take the value
-            # of that index and increment by 1
+            # if it exist then 
+            # increment the value of of its key
             frequency[item] += 1
         else:
-            # if not in frequency dict yet 
-            # set it equal to 1
+            # if it doesn't exist then 
+            # set the key value to 1
             frequency[item] = 1
     
-    
+    # display the key and number of times it appears
     for key, value in frequency.items():
         print(f"Key: {key} | Value: {value}")
-
-
+        
 # Driver function
 if __name__ == "__main__":
-    my_list = [1, 1, 1, 5, 5, 3, 1, 3, 3, 1, 4, 4, 4, 2, 2, 2, 2]
-
-    CountFrequency(my_list)
+    array = [1, 1, 1, 5, 5, 3, 1, 3, 3, 1, 4, 4, 4, 2, 2, 2, 2]
+    
+    # calling the function
+    count_frequency(array)
 
 
 
