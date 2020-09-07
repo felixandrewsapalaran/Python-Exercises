@@ -46,20 +46,27 @@ This makes the program much more compact without affecting the run time.
 """
 
 # count the frequency elements in a list using a dictionary
-def CountFrequency(my_list):
-
+def count_frequency(array):
+    
+    # this hold our frequencies
     frequency = {}
-
-    for items in my_list:
-        frequency[items] = my_list.count(items)
-
+    
+    for item in array:
+        
+        # by using the count function it would
+        # count the number of time it appears
+        # then store it to frequency dict
+        frequency[item] = array.count(item)
+        
+    # diplay the result
     for key, value in frequency.items():
-        print(f"Key: {key} | Value: {value}")
+            print(f"Key: {key} | Value: {value}")
+            
 
 # Driver function
 if __name__ == "__main__":
-    my_list = [1, 1, 1, 5, 5, 3, 1, 3, 3, 1, 4, 4, 4, 2, 2, 2, 2]
-
-    CountFrequency(my_list)
-
-
+    array = [1, 1, 1, 5, 5, 3, 1, 3, 3, 1, 4, 4, 4, 2, 2, 2, 2]
+    
+    # firing the function
+    count_frequency(array)
+    
