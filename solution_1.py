@@ -24,7 +24,7 @@ class Employee:
         print(f"""
         Name: {self.name} 
         Age: {self.age}
-        Company: {self.age}
+        Company: {self.company}
         Salary: {self.salary:,.2f}
         """)
 
