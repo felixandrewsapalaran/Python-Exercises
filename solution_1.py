@@ -58,7 +58,7 @@ class BMI:
         self.height = float(input("Enter your height in meters: "))
 
         # calculate the user's BMI
-        self.bmi = self.weight / (self.height * self.height)
+        self.bmi = self.weight / (self.height**2)
         print(f"Your BMI is: {self.bmi}")
 
         # determine if user is underweight or overweight
